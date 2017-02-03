@@ -37,9 +37,9 @@ rd = nd
 nd.reverse()
 print(' '.join(map(str, nd))) 
 
-
+l=len(nd)+1
 i = 0
-while i is <(len(nd)+1):
+while i is <int(l):
     print()
     rd[i].reverse()
     i=i+1
