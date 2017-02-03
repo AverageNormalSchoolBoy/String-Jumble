@@ -33,7 +33,10 @@ st.reverse()
 print (''.join(map(str, st)))
 nd = sent.split()
 rd = nd
-print(len(rd))
+i = 0
+while i < len(rd)+1:
+    rd[i].reverse
+    i+1
 nd.reverse()
 print (' '.join(map(str, nd)))
 
