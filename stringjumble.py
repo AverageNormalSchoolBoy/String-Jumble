@@ -28,5 +28,6 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 
 sent= input("Please enter a string of text (the bigger the better): ")
 nd = sent.split()
-nd1 = zip(nd,list(range(1,len(nd)+1)))
-print(list(nd1))
+nd.reverse()
+''.join(nd)
+print(nd)
