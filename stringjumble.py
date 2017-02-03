@@ -30,11 +30,12 @@ sent= input("Please enter a string of text (the bigger the better): ")
 
 st = (list(sent))
 st.reverse()
-
+rd=(''.join(map(str, st)))
 print(''.join(map(str, st)))
-
+rd.reverse()
 print(''.join(map(str, rd)))
-print (st)
+st.reverse()
+print(''.join(map(str, st)))
 nd = sent.split()
 nd.reverse()
 print(' '.join(map(str, nd))) 
