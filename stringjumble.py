@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Brendan
+Credit: Mr. Dennison, stackoverflow.com
 
 Assignment:
 
