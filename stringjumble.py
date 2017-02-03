@@ -37,12 +37,8 @@ rd = nd
 nd.reverse()
 print(' '.join(map(str, nd))) 
 
-l=len(nd)+1
-i = 0
-while i < int(l):
-    print()
-    rd[i].reverse()
-    i=i+1
+rd= ' '.join([word[::-1] for word in sent.split()])
+print(rd)
     
     
 
