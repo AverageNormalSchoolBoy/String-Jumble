@@ -32,14 +32,19 @@ st = (list(sent))
 st.reverse()
 rd=(''.join(map(str, st)))
 print(''.join(map(str, st)))
-rd = rd.split()
-rd.reverse()
-print(''.join(map(str, rd)))
-st.reverse()
-print(''.join(map(str, st)))
 nd = sent.split()
+rd = nd
 nd.reverse()
 print(' '.join(map(str, nd))) 
+
+
+i = 0
+while i is <(len(nd)+1):
+    print()
+    rd[i].reverse()
+    i=i+1
+    
+    
 
 
 
