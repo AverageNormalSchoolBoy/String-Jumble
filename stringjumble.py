@@ -27,7 +27,15 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 
 sent= input("Please enter a string of text (the bigger the better): ")
+
+st = (list(sent))
+st.reverse()
+print (''.join(map(str, st)))
 nd = sent.split()
+rd = nd
+print(len(rd))
 nd.reverse()
-''.join(nd)
-print(nd)
+print (' '.join(map(str, nd)))
+
+
+
